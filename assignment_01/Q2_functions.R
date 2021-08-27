@@ -119,7 +119,7 @@ multiples_of_ten(5, 32)
 
 # Test case 3:
 # Add a different function call in this line, like multiples_of_ten(10, 32), above.
-#
+#10, 20, 30 does not work becasue returns 10 and it should not include num1 
 
 
 #--------------------------------------------------------------------------------
@@ -133,12 +133,15 @@ count_even_numbers(11)
 
 # Test case 1:
 # Add a different function call in this line, count_even_numbers(11), above.
+#5 works 
 
 # Test case 2:
-# Add a different function call in this line, count_even_numbers(11), above.
+# Add a different function call in this line, count_even_numbers(20), above.
+#10 works 
 
 # Test case 3:
-# Add a different function call in this line, count_even_numbers(11), above.
+# Add a different function call in this line, count_even_numbers(220), above.
+# 100 which is wrong it should be 110 but it only returns numbers 0-100 
 
 
 ################################################################################
