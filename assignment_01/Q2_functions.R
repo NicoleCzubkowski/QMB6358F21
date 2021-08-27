@@ -71,7 +71,7 @@ count_even_numbers <- function(num_in) {
     }
   }
 
-  return(count)
+  return(count) cool 
 }
 
 ################################################################################
