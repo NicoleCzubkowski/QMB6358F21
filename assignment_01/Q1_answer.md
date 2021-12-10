@@ -1,5 +1,8 @@
 # Assignment 1, Question 1
 
+Nicole Czubkowksi 
+8/27/2021
+
 This page, if uploaded to a GitHub repository, 
 will display images of files that are stored in this directory. 
 In particular, the command 

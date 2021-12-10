@@ -5,11 +5,11 @@
 # Assignment 1, Question 2:
 # Drafting Code for Functions
 #
-# Name:
+# Name: Nicole Czubkowski
 # College of Business
 # University of Central Florida
 #
-# Date:
+# Date: 8/27/2021
 #
 ################################################################################
 #
@@ -23,7 +23,7 @@
 ################################################################################
 
 # Load packages, if you need any.
-# library(name_of_R_package_goes_here)
+# library(General Enviorment )
 
 
 ################################################################################
@@ -71,7 +71,7 @@ count_even_numbers <- function(num_in) {
     }
   }
 
-  return(count)
+  return(count) 
 }
 
 ################################################################################
@@ -89,12 +89,15 @@ is_it_3_or_4(3)
 
 # Test case 1:
 # Add a different function call in this line, like is_it_3_or_4(3), above.
+#3 True works 
 
 # Test case 2:
 # Add a different function call in this line, like is_it_3_or_4(3), above.
+#3.5 True does not work 
 
 # Test case 3:
 # Add a different function call in this line, like is_it_3_or_4(3), above.
+#4 True works 
 
 
 #--------------------------------------------------------------------------------
@@ -108,12 +111,15 @@ multiples_of_ten(5, 32)
 
 # Test case 1:
 # Add a different function call in this line, like multiples_of_ten(5, 32), above.
+#10,20,30 works 
 
 # Test case 2:
-# Add a different function call in this line, like multiples_of_ten(5, 32), above.
+# Add a different function call in this line, like multiples_of_ten(10, 10), above.
+#10 does not work returns value num1 and num2 and it should not 
 
 # Test case 3:
-# Add a different function call in this line, like multiples_of_ten(5, 32), above.
+# Add a different function call in this line, like multiples_of_ten(10, 32), above.
+#10, 20, 30 does not work becasue returns 10 and it should not include num1 
 
 
 #--------------------------------------------------------------------------------
@@ -127,14 +133,17 @@ count_even_numbers(11)
 
 # Test case 1:
 # Add a different function call in this line, count_even_numbers(11), above.
+#5 works 
 
 # Test case 2:
-# Add a different function call in this line, count_even_numbers(11), above.
+# Add a different function call in this line, count_even_numbers(20), above.
+#10 works 
 
 # Test case 3:
-# Add a different function call in this line, count_even_numbers(11), above.
+# Add a different function call in this line, count_even_numbers(220), above.
+# 100 which is wrong it should be 110 but it only returns numbers 0-100 
 
 
 ################################################################################
-# End
+# End 
 ################################################################################
